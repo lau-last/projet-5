@@ -2,24 +2,21 @@
 
 namespace App\Controller;
 
+use App\Container;
+use App\Renderer\PhpRenderer;
 use App\Router\Router;
 
 abstract class Controllers
 {
-    private string $viewsDir;
+    private PhpRenderer $renderer;
 
     public function __construct()
     {
-        $this->viewsDir = (new \App\App())->getViewsDir();
+        $this->renderer = Container::get('renderer');
     }
 
     public function view(string $path, array $params = []): void
     {
-        extract($params);
-        $views = $this->viewsDir;
-        ob_start();
-        require  $views . $path;
-        $content = ob_get_clean();
-        require  $views . '/layout.php';
+        echo $this->renderer->render($path, $params);
     }
 }

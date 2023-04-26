@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1200faa-d129-4d60-a68f-f5ad52694943" name="Changes" comment="" />
+    <list default="true" id="e1200faa-d129-4d60-a68f-f5ad52694943" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/objets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Container.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Renderer/PhpRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DatabaseConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DatabaseConnect.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/MAMP/htdocs",
+    "last_opened_file_path": "C:/MAMP/htdocs/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\config" />
       <recent name="C:\MAMP\htdocs\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,11 +92,23 @@
       <workItem from="1682348489939" duration="1325000" />
       <workItem from="1682409668162" duration="53000" />
       <workItem from="1682410471785" duration="321000" />
-      <workItem from="1682497589721" duration="17464000" />
+      <workItem from="1682497589721" duration="18828000" />
+      <workItem from="1682521028108" duration="1893000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public/index.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
