@@ -16,6 +16,9 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -77,7 +80,7 @@
       <workItem from="1682348489939" duration="1325000" />
       <workItem from="1682409668162" duration="53000" />
       <workItem from="1682410471785" duration="321000" />
-      <workItem from="1682497589721" duration="14877000" />
+      <workItem from="1682497589721" duration="17464000" />
     </task>
     <servers />
   </component>

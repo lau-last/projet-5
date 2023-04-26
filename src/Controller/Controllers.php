@@ -13,8 +13,9 @@ abstract class Controllers
         $this->viewsDir = (new \App\App())->getViewsDir();
     }
 
-    public function view(string $path): void
+    public function view(string $path, array $params = []): void
     {
+        extract($params);
         $views = $this->viewsDir;
         ob_start();
         require  $views . $path;

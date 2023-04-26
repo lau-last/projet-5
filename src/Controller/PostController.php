@@ -17,10 +17,6 @@ class PostController extends Controllers
         $stmt = $pdo->query("SELECT * FROM article");
         $posts = $stmt->fetchAll();
 
-        foreach ($posts as $post){
-            echo "<h2>$post->title</h2>";
-        }
-
-        $this->view("post.php");
+        $this->view("post.php", ["posts"=>$posts]);
     }
 }
